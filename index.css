@@ -1,0 +1,227 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h3, i, p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background: rgba(0, 0, 0, 0.7) url("/images/cinema.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 3.8em 2.6em;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+    font-size: 2.625rem;
+}
+
+a {
+    margin: auto 0;
+    font-size: 0.875rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.movie-list-container {
+    /* width: 100%; */
+    text-align: center;
+    height: 100vh;
+    padding: 1.3em 0;
+}
+
+/* ---- search css ---- */
+
+.search-container {
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin: 0 2.6em;
+    margin-top: -1.25em;
+    color: #9CA3AF;
+    font-size: 0.875rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.fa-magnifying-glass {
+    flex: 0 0 10%;
+    text-align: center;
+    align-self: center;
+}
+
+.search-input, .search-btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.search-input {
+    padding: 0.7em 0.9em 0.6em 0;
+    flex: 1 1 auto;
+    border: none;
+}
+
+.search-btn {
+    background: #F9FAFB;
+    border: none;
+    border-left: 1px solid #D1D5DB;
+    border-radius: 0px 6px 6px 0px;
+    color: #374151;
+    height: 100%;
+    flex: 0 0 25%;
+}
+
+/* ---- home page main section css ---- */
+
+.start-exploring-box, .no-results-box {
+    color: #DFDDDD;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.start-exploring-text, .no-results-text {
+    font-size: 1.125rem;
+    margin: 0;
+    margin-top: 0.3em;
+}
+
+/* ---- my watchlist page css ---- */
+
+.add-movie-container {
+    display: flex;
+    color: #363636;
+    font-size: 1.2rem;
+    justify-content: center;
+    margin-top: 0.85em;
+}
+
+.add-movie-text, .fa-circle-plus, fa-circle-minus {
+    margin: 0;
+}
+
+.add-movie-text {
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.28em;
+    padding-left: 0.5em;
+}
+
+
+/* ---- movie css ---- */
+
+.movie-container {
+    display: flex;
+    margin: 1.3em 2.6em;
+}
+
+.movie-img-box {
+    flex: 0 0 22%;
+    margin: auto 0;
+}
+
+.movie-img {
+    width: 100%;
+}
+
+.movie-discription-container {
+    margin-left: 1.3em;
+    margin-top: 1.25em;
+}
+
+.movie-name-box {
+    display: flex;
+    margin-bottom: 0.68em;
+}
+
+.movie-name {
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.star-icon, .movie-rating , .movie-info-box {
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: #111827;
+    padding-top: 2px;
+}
+
+.star-icon {
+    color: #FEC654;
+    margin: 0 0.25em 0 0.75em;
+}
+
+.movie-info-box {
+    display: flex;
+    margin-bottom: 0.5em;
+}
+
+.release-date {
+    margin-right: 1em;
+}
+
+.movie-genre {
+    margin-right: 1.6em;
+}
+
+.add-movie-btn-container {
+    display: flex; 
+}
+
+.fa-circle-plus, .fa-circle-minus {
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.add-movie-btn-label, .remove-movie-btn-label {
+    margin-left: 0.4em;
+}
+
+.movie-about-text {
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 1.4em;
+    color: #6B7280;
+    text-align: left;
+    margin-top: 0.9em;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+hr {
+   margin: 0 2.6em; 
+   color: #E5E7EB;
+   border-top: none;
+   border-width: 2px;
+}
+
+.disabled-btn {
+    pointer-events: none;
+    color: #E5E7EB;
+}
+
+
+
