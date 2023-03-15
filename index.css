@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     color: white;
-    background: rgba(0, 0, 0, 0.7) url("../images/cinema.jpg");
+    background: rgba(0, 0, 0, 0.7) url("./images/cinema.jpg");
     background-size: cover;
     background-blend-mode: darken;
     padding: 3.8em 2.6em;
