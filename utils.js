@@ -13,7 +13,11 @@ function getMovieGenre(keys){
 
 function getWatchlist(){
     let watchlist = localStorage.getItem("watchlist")
-    return JSON.parse(watchlist)
+    if (watchlist == null){
+        return []
+    }else {
+        return JSON.parse(watchlist)
+    }
 }
 
 export {getMovieGenre, setMovieGenres, getWatchlist} 

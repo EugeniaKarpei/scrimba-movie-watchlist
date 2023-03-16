@@ -1,4 +1,4 @@
-import {getMovieGenre, setMovieGenres, getWatchlist} from './utils.js'
+import {getMovieGenre, setMovieGenres, getWatchlist} from '/utils.js'
 
 const movieListContainer = document.getElementById("movie-list-container")
 let watchlist = getWatchlist()
@@ -11,6 +11,7 @@ function loadWatchlist(){
         displayWatchlist(watchlist)
     } else {
         movieListContainer.innerHTML = getEemptyWatchlistBoxHTML()
+        localStorage.clear()
     }
 }
 

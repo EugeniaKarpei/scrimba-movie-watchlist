@@ -1,4 +1,4 @@
-import {getMovieGenre, setMovieGenres, getWatchlist} from './utils.js'
+import {getMovieGenre, setMovieGenres, getWatchlist} from '/utils.js'
 
 const apiKey = "a53d2701bc6ca0ce0275b059b9b55189"
 const searchInput = document.getElementById("search-input")
